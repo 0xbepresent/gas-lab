@@ -28,7 +28,7 @@ contract Contract0 {
 }
 
 contract Contract1 {
-    uint256 private MY_VAR = 1337 ;
+    uint256 private constant MY_VAR = 1337 ;
     function withPrivateConstant() public returns(uint256) {
         return MY_VAR;
     }
